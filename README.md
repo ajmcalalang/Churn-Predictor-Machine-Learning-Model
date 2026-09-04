@@ -1,74 +1,57 @@
-# 📊 Churn Predictor
+# Churn Predictor
 
-A machine learning project that analyzes telecommunications customer data to identify factors associated with customer churn and predict customers who are likely to leave.
+A machine learning project that analyzes telecommunications customer data to identify factors influencing customer churn and predict customers who are likely to leave.
 
 ## 🎯 Project Objective
 
-The goal of this project is to understand customer churn patterns and develop a predictive model that can help businesses identify customers at risk of leaving and support data-driven retention strategies.
+The goal of this project is to understand customer churn patterns and develop a predictive model that can help businesses make data-driven customer retention decisions.
 
 ## 🛠️ Technologies Used
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
 ## 🔍 Project Workflow
 
-1. Data Loading & Preparation
+1. Data Loading and Preparation
 2. Exploratory Data Analysis
 3. Data Visualization
-4. Feature Engineering
+4. Feature Analysis
 5. Random Forest Classification
 6. Model Evaluation
-7. Interpretation of Results
 
-## 📈 Exploratory Data Analysis
+## 📊 Exploratory Data Analysis
 
-The dataset was explored to identify patterns and relationships between customer characteristics, services, contracts, charges, and churn.
+### Customer Tenure Distribution
 
-### Customer Churn Distribution
+![Customer Tenure Distribution](images/tenure-distribution.png)
 
-![Customer Churn Distribution](images/churn-distribution.png)
+### Monthly Charges vs Churn
 
-### Churn by Contract Type
+![Monthly Charges vs Churn](images/monthly-charges-vs-churn.png)
 
-![Churn by Contract](images/churn-contract.png)
+### Churn Rate by Contract Type
 
-### Churn Analysis
+![Churn Rate by Contract Type](images/churn-by-contract.png)
 
-![Churn Analysis](images/churn-analysis.png)
+### Churn Rate by Internet Service
 
-## 🤖 Model Results
+![Churn Rate by Internet Service](images/churn-by-internet-service.png)
 
-A Random Forest Classifier was trained to predict whether a customer is likely to churn.
+### Correlation Heatmap
 
-### Model Performance
+![Correlation Heatmap](images/correlation-heatmap.png)
 
-![Model Performance](images/model-performance.png)
+## 🤖 Model Performance
 
-### Feature Importance
+### Confusion Matrix
 
-![Feature Importance](images/feature-importance.png)
+![Confusion Matrix](images/confusion-matrix.png)
 
-## 💡 Key Insights
+## 💡 Key Takeaways
 
-The analysis helps identify customer characteristics and service-related factors associated with churn. These insights can be used to develop targeted customer retention strategies and improve customer satisfaction.
-
-## 📁 Project Structure
-
-```text
-Churn-Predictor/
-│
-├── images/
-│   ├── churn-distribution.png
-│   ├── churn-contract.png
-│   ├── churn-analysis.png
-│   ├── model-performance.png
-│   └── feature-importance.png
-│
-├── Churn_Predictor.ipynb
-└── README.md
-```
+The analysis explores customer characteristics and service-related factors associated with churn. The Random Forest model is used to classify customers based on their likelihood of churn, providing insights that can support customer retention strategies.
