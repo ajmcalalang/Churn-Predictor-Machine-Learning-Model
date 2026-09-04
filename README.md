@@ -28,29 +28,29 @@ The goal of this project is to understand customer churn patterns and develop a 
 
 ### Customer Tenure Distribution
 
-![Customer Tenure Distribution](images/tenure-distribution.png)
+![Customer Tenure Distribution](tenure-distribution.png)
 
 ### Monthly Charges vs Churn
 
-![Monthly Charges vs Churn](images/monthly-charges-vs-churn.png)
+![Monthly Charges vs Churn](monthly-charges-vs-churn.png)
 
 ### Churn Rate by Contract Type
 
-![Churn Rate by Contract Type](images/churn-by-contract.png)
+![Churn Rate by Contract Type](churn-by-contract.png)
 
 ### Churn Rate by Internet Service
 
-![Churn Rate by Internet Service](images/churn-by-internet-service.png)
+![Churn Rate by Internet Service](churn-by-internet-service.png)
 
 ### Correlation Heatmap
 
-![Correlation Heatmap](images/correlation-heatmap.png)
+![Correlation Heatmap](correlation-heatmap.png)
 
 ## 🤖 Model Performance
 
 ### Confusion Matrix
 
-![Confusion Matrix](images/confusion-matrix.png)
+![Confusion Matrix](confusion-matrix.png)
 
 ## 💡 Key Takeaways
 
